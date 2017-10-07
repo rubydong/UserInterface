@@ -9,6 +9,9 @@ body {
     color: #4A4A4A;
 }
 
+#icons img{
+    width: 25%;
+}
 .container img {
     width: 45%;
 }
