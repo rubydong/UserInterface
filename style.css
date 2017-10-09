@@ -10,7 +10,10 @@ body {
 }
 
 #icons img{
-    width: 25%;
+    width: 22%;
+}
+#icons .text {
+    width: 50%;
 }
 .container img {
     width: 45%;
