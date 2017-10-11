@@ -15,9 +15,11 @@ body {
 #icons .text {
     width: 50%;
 }
-.container img {
-    width: 45%;
+
+.container {
+    display: inline;
 }
+
 
 .text {
     width: 75%;
