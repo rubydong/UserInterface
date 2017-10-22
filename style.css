@@ -9,11 +9,15 @@ body {
     color: #4A4A4A;
 }
 
-#icons img{
+.four img{
     width: 22%;
 }
 #icons .text {
     width: 50%;
+}
+
+.two img {
+    width: 40%;
 }
 
 .container {
@@ -24,6 +28,7 @@ body {
 .text {
     width: 75%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 a {
