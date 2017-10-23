@@ -21,10 +21,12 @@ body {
     width: 40%;
 }
 
+.one img {
+    width: 70%;
+}
 .container {
     display: inline;
 }
-
 
 .text {
     width: 75%;
@@ -41,4 +43,29 @@ h1 {
     color: #FF9A9D;
     text-shadow: 1px 1px #D4D4D4;
     font-size: 40px;
+    padding-top: 5%;
+}
+
+a {
+    background-color: #F5A2A2;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #F2ACAC;
+    transition: 300ms ease-in-out;
+}
+
+.navigation {
+    margin-top: -7px;
+    right: 10px;
+    position: absolute;
+}
+
+.content {
+    margin: auto;
+    margin-top: 60px;
+    width:40%;
 }
