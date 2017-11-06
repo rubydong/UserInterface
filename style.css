@@ -46,14 +46,14 @@ h1 {
     padding-top: 5%;
 }
 
-a {
+.navigation a {
     background-color: #F5A2A2;
     color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
 }
 
-a:hover {
+navigation a:hover {
     background-color: #F2ACAC;
     transition: 300ms ease-in-out;
 }
