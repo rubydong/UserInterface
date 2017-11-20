@@ -14,7 +14,6 @@ h1 {
 
 h2 {
     letter-spacing: 2px;
-/*    color: #B0D9E8;*/
 }
 
 ::selection {
@@ -173,21 +172,21 @@ hr {
     width: 100%;
 }
 
-
 .view {
    margin: 10px;
    border: 10px solid #fff;
-   background: #FFF;
+   border-bottom: 6px solid #fff;
    overflow: hidden;
-/*   overflow-x: hidden;*/
    position: relative;
    text-align: center;
    box-shadow: 2px 1px 2px #e6e6e6;
+   background-color: #FFF;
 }
 
 .projBox {
    width: 70%;
    margin-left: 15%;
+
 }
 
 .projBox .mask, .projBox img {
@@ -211,7 +210,6 @@ hr {
 }
 .view .mask,.view .content {
    position: absolute;
-   overflow: hidden;
    top: 0;
    left: 0;
 }
@@ -221,11 +219,14 @@ hr {
 }
 
 .projBox .mask {
-   height: 1000px;
+   height: 100%;
    background: url("../img/grid.png");
    transform: translateX(-500px);
    opacity: 1;
    transition: all 0.3s ease-in-out;
+   overflow: auto;
+   overflow-x:hidden;
+
 }
 
 .projBox:hover .mask {
@@ -238,7 +239,6 @@ hr {
 .maskText {
     margin-left: 5%;
     width: 90%;
-    overflow-x: auto;
 }
 
 
@@ -252,6 +252,7 @@ hr {
     }
     .view {
        border: 5px solid #fff;
+       border-bottom: 1px solid #fff;
     }
 }
 
@@ -264,6 +265,7 @@ hr {
         width: 140px;
     }
 }
+
 
 #designs {
     background: url("../img/grid.png");
